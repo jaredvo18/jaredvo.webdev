@@ -1,0 +1,222 @@
+/*** Reset Body Styles ***/
+
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+/*** Headings ***/
+
+h1 {
+  color: #5EAAA8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  margin: 0 auto 10px;
+}
+
+h2 {
+  color: #5EAAA8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #5EAAA8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+p {
+  font-family: 'Texturina', serif;
+  font-size: 1.2rem;
+  line-height: 2;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+/*** Top Container ***/
+
+.top-container {
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/*** Navigation Bar ***/
+
+.nav-bar {
+  background-color:  #EAF6F6;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 15%;
+}
+
+.nav-picture {
+  height: 100px;
+  width: 100px;
+}
+
+.nav-item {
+  color: #5EAAA8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  padding: 20px 0;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #11999E;
+  text-decoration: none;
+}
+
+/*** Page Header ***/
+
+.header {
+  background-color: #EAF6F6;
+  display: inline-block;
+  position: relative;
+  bottom: 44px;
+  left: 17px;
+  padding-bottom: 16px;
+  text-align: center;
+  width: 78.6%;
+}
+
+.page-header {
+  font-size: 4rem;
+}
+
+.page-subheading {
+  font-family: 'Texturina', serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  padding: 20px;
+  text-align: left;
+}
+
+/*** Middle Container ***/
+
+.middle-container {
+  background-color: #EAF6F6;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 97.5%;
+}
+
+/*** Skills ***/
+
+.skills {
+  background-color: #EAF6F6;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.html-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.css-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.skill-title {
+  text-align: left;
+}
+
+.skill-details {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+/*** Projects ***/
+
+.website-link {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.website-link:hover {
+  color: #5EAAA8;
+  text-decoration: none;
+}
+
+/*** Blog ***/
+
+.blog-post-links {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.blog-post-links:hover {
+  color: #5EAAA8;
+  text-decoration: none;
+}
+
+/*** Bottom Container ***/
+
+.bottom-container {
+  background-color: black;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #5EAAA8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  margin: auto 40px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #11999E;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.75rem;
+  padding-top: 40px;
+}
+
+/*** Span Classes ***/
+
+.underline {
+  text-decoration: underline;
+}
